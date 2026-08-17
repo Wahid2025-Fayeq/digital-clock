@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.clock {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.clock h1 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+#time {
+  margin-bottom: 0;
+  font-size: clamp(32px, 10vw, 48px);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
